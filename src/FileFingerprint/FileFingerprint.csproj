@@ -1,0 +1,74 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>ff</AssemblyName>
+    <ApplicationIcon>ff.ico</ApplicationIcon>
+    <Authors>Koray USTUNDAG</Authors>
+    <Copyright>Copyright © Koray Üstündağ 2022</Copyright>
+    <Description>Shows the fingerprints of the selected files.</Description>
+    <PackageProjectUrl>https://github.com/korayustundag/filefingerprint</PackageProjectUrl>
+    <PackageIcon>ff.png</PackageIcon>
+    <RepositoryUrl>https://github.com/korayustundag/filefingerprint</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>file,fingerprint,checksum</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Platforms>AnyCPU;ARM32;ARM64;x64;x86</Platforms>
+    <SignAssembly>False</SignAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM32'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM32'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="ff.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ff.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
